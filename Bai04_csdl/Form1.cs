@@ -20,6 +20,9 @@ namespace Bai04_csdl
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Xin chào các bạn K23 THÂN MẾM!");
+
+
             // khởi tạo đối tượng đại diện cho Database
             ModelStudentDB context = new ModelStudentDB();
             //tạo danh sách khoa

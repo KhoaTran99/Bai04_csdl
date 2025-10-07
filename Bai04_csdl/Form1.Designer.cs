@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMSSV = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.rdoNam = new System.Windows.Forms.RadioButton();
             this.rdoNu = new System.Windows.Forms.RadioButton();
@@ -51,16 +51,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvSinhVien)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtMSSV
             // 
-            this.textBox1.Location = new System.Drawing.Point(73, 109);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(160, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtMSSV.Location = new System.Drawing.Point(93, 109);
+            this.txtMSSV.Name = "txtMSSV";
+            this.txtMSSV.Size = new System.Drawing.Size(160, 20);
+            this.txtMSSV.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(73, 152);
+            this.textBox2.Location = new System.Drawing.Point(93, 152);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(160, 20);
             this.textBox2.TabIndex = 0;
@@ -68,7 +68,7 @@
             // rdoNam
             // 
             this.rdoNam.AutoSize = true;
-            this.rdoNam.Location = new System.Drawing.Point(73, 233);
+            this.rdoNam.Location = new System.Drawing.Point(93, 233);
             this.rdoNam.Name = "rdoNam";
             this.rdoNam.Size = new System.Drawing.Size(47, 17);
             this.rdoNam.TabIndex = 1;
@@ -79,7 +79,7 @@
             // 
             this.rdoNu.AutoSize = true;
             this.rdoNu.Checked = true;
-            this.rdoNu.Location = new System.Drawing.Point(164, 233);
+            this.rdoNu.Location = new System.Drawing.Point(184, 233);
             this.rdoNu.Name = "rdoNu";
             this.rdoNu.Size = new System.Drawing.Size(39, 17);
             this.rdoNu.TabIndex = 1;
@@ -90,14 +90,14 @@
             // cbbKhoa
             // 
             this.cbbKhoa.FormattingEnabled = true;
-            this.cbbKhoa.Location = new System.Drawing.Point(73, 278);
+            this.cbbKhoa.Location = new System.Drawing.Point(93, 278);
             this.cbbKhoa.Name = "cbbKhoa";
             this.cbbKhoa.Size = new System.Drawing.Size(160, 21);
             this.cbbKhoa.TabIndex = 2;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(73, 187);
+            this.textBox3.Location = new System.Drawing.Point(93, 187);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(160, 20);
             this.textBox3.TabIndex = 0;
@@ -105,11 +105,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 115);
+            this.label1.Location = new System.Drawing.Point(13, 116);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.label1.Text = "Mã sinh viên";
             // 
             // label2
             // 
@@ -141,7 +141,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 281);
+            this.label5.Location = new System.Drawing.Point(32, 281);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 13);
             this.label5.TabIndex = 3;
@@ -233,7 +233,7 @@
             this.Controls.Add(this.rdoNam);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMSSV);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -245,7 +245,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtMSSV;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.RadioButton rdoNam;
         private System.Windows.Forms.RadioButton rdoNu;
